@@ -1,0 +1,381 @@
+/* FONTES
+font-family: 'Caveat', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Lobster Two', cursive;
+font-family: 'Playfair Display', serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    box-sizing: border-box;
+}
+
+hmtl {
+    overflow: auto;
+    height: 100%;
+    width: 95%;
+    margin: auto;
+    font-size: 100%;
+}
+
+/* MENU DE NAVEGAÇÃO */
+.nav-buttons {
+    background-color: #cacecd;
+    border: none;
+    color:  rgb(85, 117, 81, .7);   
+    cursor: pointer;
+    margin-right: 0.4vw;
+    padding: 0.1vh 0.3vw;
+    vertical-align: bottom;
+    transition: background-color 0.15s, color 0.15s ;
+}
+
+.nav-buttons:hover {
+    background-color:  rgb(85, 117, 81, .7);
+    color: #cacecd; 
+}
+
+.container-fluid {
+    background-color: #cacecd;
+}
+
+/* CARROSSEL */
+#carrossel {
+    height: 62vh;
+    width: 100%;
+    color: #394937;
+}
+
+.carousel-image {
+    height: 62vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-img-1 {
+    background-image: url(img/background.jpg);
+}
+
+.bg-img-2 {
+    background-image: url(img/background1.jpg);
+}
+
+.bg-img-3 {
+    background-image: url(img/background3.jpg);
+}
+
+/* NOME LOGO */
+.navbar-brand { 
+    font-family: 'Caveat', cursive;
+    color:#394937;
+    font-size: 2.2rem;
+    margin-left: 2.1vw;
+    margin-right: 42.6 ;
+    text-shadow: 0.1rem 0.1rem #afafaf;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+/* LOGO */
+#name {
+    background: #394937;
+    background: radial-gradient(circle, rgba(57,73,55,1) 0%, rgba(102,147,97,1) 55%, rgba(102,147,97,1) 87%);
+    min-width: 282px;
+    height: 180px;
+    position: absolute;
+    margin-top: -40.5vh;
+    margin-left: 6.4vw;
+    border-radius: 0.5vh 2.5vw;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+#name h1 {
+    font-family: 'Caveat', cursive;
+    color: #C8CDCD;
+    padding-top: 2.6vh;
+    padding-left: 1.6vw;
+    font-weight: 43.7rem;
+    font-size: 4.4rem;
+}
+
+#name h4 {
+    font-family: 'Playfair Display', serif;
+    color: #C8CDCD;
+    margin: -5px;
+    padding-left: 2.1vw;
+    font-size: 1.25rem;
+    font-weight: 100;
+}
+
+/* SOBRE */
+#sobre {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    margin: 2vh auto;
+}
+
+#sobre-txt {
+    margin: auto;
+    width: 33vw;
+    margin-top: 12vh;
+}
+
+#sobre-tit {
+    color: #394937;
+}
+
+#sobre-par {
+    padding-top: 1.6vh;
+    text-align: justify;
+    border-bottom: 0.1vh solid #394937;
+    border-top: 0.1vh solid #394937;
+}
+
+#sobre-par span{
+    font-family: 'Caveat', cursive;
+    margin-left: 0.2vw;
+    font-size: 1.1rem;
+}
+
+#sobre-tit span{
+    font-family: 'Caveat', cursive;
+    margin-left: 0.2vw;
+}
+
+#img-manicure img {
+    grid-area: 1 / 1 / 2 / 2;
+    margin-top: 15vh;
+    margin-left: 5.3vw;
+    width: 26.6vw;
+    height: 42.6vh;
+    box-shadow: 15px 15px #394937d3;
+}
+
+/* SERVIÇOS */
+#servicos {
+    padding-bottom: 20vh;
+}
+
+#servicos h2 {
+    text-align: center;
+    margin: auto;
+    width: 33vw;
+    border-bottom: 1px solid #394937;
+    padding-bottom: 2vh;
+    margin-top: 12vh;
+}
+
+#servicos-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 12vh;
+}
+
+#servicos-cards img {
+    height: 24rem;
+}
+
+.card-text {
+    margin: 0;
+    height: 10rem;
+}
+
+.btn-servico {
+    color: #000000;
+    background-color: #cacecd;
+    border-color: #cacecd;
+}
+
+.btn-servico:hover {
+    color: #ffffff;
+    background-color: #394937;
+    border-color: #394937;
+}
+
+.card-title {
+    font-weight: bold;
+}  
+
+/* PITCH */
+#pitch-tit h1{
+    font-size: 2rem;
+    text-align: center;
+    margin: auto;
+    width: 33vw;
+    border-bottom: 1px solid #394937;
+    padding-bottom: 2vh;
+    margin-top: -6.4vh;
+}
+
+#video-pitch {
+    text-align: center;
+    margin-top: 5.3vh;
+}
+
+/* RODAPÉ */
+#rodape {
+    background: rgb(57, 73, 55, .5);
+    margin-top: 6.4vh;
+    height: 100%;
+}
+
+#name-footer h1 {
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 5.3vh;
+    font-weight: 43.7rem;
+    font-size: 2.2rem;
+    text-shadow: 2px 2px rgb(57, 73, 55, .5);
+}
+
+#name-footer h4 {
+    font-family: 'Playfair Display', serif;
+    color: #ffffff;
+    text-align: center;
+    padding-left: 0.3vw;
+    font-size: 0.9rem;
+    font-weight: 100;
+}
+
+#navegacao {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 5.3vh;
+}
+
+.nav-footer li{
+    width: 5.3vw;
+    list-style: none;
+    display: inline-block;
+    text-align: left;
+}
+
+#contato_footer {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 4.3vh;
+}
+
+#contato_footer a{
+    padding-bottom: 0.3vh;
+    text-decoration: none;
+    color: #ffffff;
+    border-bottom: 1px solid #394937;
+    text-shadow: 2px 2px rgb(57, 73, 55, .5);
+}
+
+#empresa {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 4.3vh;
+}
+
+#empresa p{
+    padding-bottom: 0.3vh;
+    text-decoration: none;
+    color: #ffffff;
+    margin-top: 4.3vh;
+    margin-bottom: 0;
+    font-size: 0.7rem;
+    }
+
+/* Design responsivo para mobile */
+@media (max-width: 1200px)
+{
+    #sobre {
+        flex-direction: column;
+        width: 90vw;
+    }
+
+    #img-manicure img {
+        width: 50%;
+        margin-left: 2vw;
+    }
+
+    #sobre-txt {
+        width: 85vw;
+    }
+
+    #servicos h2 {
+        width: 80%;
+    }
+
+    #servicos-cards {
+        flex-direction: column;
+        margin-top: 3vh;
+    }
+
+    #servicos-cards img {
+        height: 100%;
+    }
+
+    .card {
+        flex-direction: row;
+        height: 32vh;
+        width: 80% !important;
+        margin: 1vh auto;
+        overflow: hidden;
+    }
+
+    .card-body {
+        width: 250vw;
+    }
+
+    #pitch-tit h1 {
+        width: 80vw;
+    }
+
+    .nav-footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0;
+    }
+
+    .nav-footer .nav-item{
+        width: 100%;
+        text-align: center;
+    }
+    .btn-servico {
+        margin-top: 5rem;
+    }
+    .card-text{
+        height: 4rem;
+    }
+
+@media (max-width: 620px){
+    .navbar-brand {
+        margin: auto;
+    }
+
+    #img-manicure img {
+        margin: 0;
+        width: 90vw;
+    }
+
+    #servicos-cards img {
+        width: 40%;
+    }
+
+    iframe {
+        max-width: 90vw;
+    }
+    .card-text {
+        font-size: 2.7vw;
+    }
+    
+    
+
+    }
+}
